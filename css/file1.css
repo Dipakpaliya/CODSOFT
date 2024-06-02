@@ -2,20 +2,45 @@ body{
     margin:0;
     padding:0;
 }
+*{
+    scroll-behavior: smooth;
+}
+.common-bg{
+    /* background-color: rgb(117, 156, 156); */
+    padding:30px 0px;
+    font-size:xx-large;
+}
+.m-0{
+    margin:0;
+}
+.p-0{
+    padding:0;
+}
 
 .center{
-    text-align: center;
+    text-align:center;
+}
+.display{
+    display:inline;
 }
 
 nav{
     display:flex;
     justify-content: space-between;
     align-items: center;
-    background-color: rgb(124, 245, 245);
+    background-color: rgb(0, 0, 0);
+    color:white;
+    position:fixed;
+    width:100%;
+    height:10vh;
 }
+
 #logo{
     font-size: larger;
     padding-left: 15px;
+}
+#logo h1{
+    /* text-shadow: 4px 3px 2px #000000; */
 }
 #ul-list{
     list-style: none;
@@ -35,15 +60,24 @@ nav{
 }
 #ul-list li a{
     text-decoration: none;
-    color:black;
+    color:rgb(255, 255, 255);
     
 }
 
 
 .btn{
-    background-color: rgb(124, 245, 245);
-color:black;
+    background-color:black;
+color:rgb(255, 255, 255);
 border:none;
+cursor:pointer;
+width:235px;
+height:35px;
+border-radius: 20px;
+}
+.btn:hover{
+    background-color:rgb(255, 255, 255);
+color:rgb(0, 0, 0);
+border:2px solid black;
 cursor:pointer;
 width:235px;
 height:35px;
@@ -54,12 +88,43 @@ border-radius: 20px;
     display:flex;
     justify-content: center;
     align-items: center;
-    padding-top: 25px;
+    padding-top: 114px;
+    /* background: url('/images/Brown\ and\ Gray\ Simple\ Personal\ LinkedIn\ Banner.png');
+    background-size: cover; */
+    z-index: 2;
+    
+}
+#section1::before{
+
+background: url('/images/Brown\ and\ Gray\ Simple\ Personal\ LinkedIn\ Banner.png');
+background-size: cover;
+z-index: -1;
+}
+#mypic{
+    
 }
 #mypic img{
     height:235px;
     width:355px;
+    padding:15px 0px;
+    /* border:2px solid rgb(23, 23, 23); */
+    /* border-radius: 25px; */
+    /* background-color: #ffffff; */
+    animation-name: anim2;
+    animation-duration: 5s;
+    animation-iteration-count: 3;
   
+    
+}
+@keyframes anim2{
+    from {
+        /* transform:rotate(0deg); */
+       
+    }
+    to{
+/* transform: rotate(90deg); */
+
+    }
     
 }
 .sec1div1{
@@ -71,12 +136,12 @@ border-radius: 20px;
 }
 
 
-#social-list{
+.social-list{
     display:flex;
     list-style: none;
     justify-content:center;
 }
-#social-list li{
+.social-list li{
     /* border:2px solid red; */
     margin:12px 23px;
 }
@@ -84,17 +149,226 @@ border-radius: 20px;
 
 
 
-/* section 2  */
+/* section 2 skills section  */
+
+#section2{
+    margin-top: 17px;
+}
+.projects{
+    display:grid;
+    grid-template-columns:2fr 2fr 2fr 2fr;
+    /* border:2px solid red; */
+    background-color: rgb(255, 255, 255);
+    padding:7px 10px;
+}
+.project{
+    /* border:2px solid black; */
+    height:300px;
+    box-sizing: border-box;
+    padding:7px 14px;
+    margin:0px 2px;
+}
+.project:hover{
+    /* animation-name: anim1;
+    animation-duration: 1s;
+    animation-iteration-count:1; */
+    border-radius:10px;
+    border:2px solid black;
+    background-color: black;
+    color:white;
+}
+    /* @keyframes anim1{
+        from{
+            border-radius: 1px;
+        }
+        to{
+            border-radius:25px;
+        }
+    } */
+
+
+.btn2{
+    background-color: black;
+    color:white;
+    border:none;
+    border-radius: 25px;
+    height:33px;
+    width:100%;
+    cursor:pointer;
+}
 
 
 
+.p-logo img{
+    display:block;
+    margin:auto;
+}
 
 
 
+/* section 3 contact us section  */
+#section3{
+    display:flex;
+margin-top:12px;
+justify-content:center;
+}
+.sec3div1{
+    /* background-color: brown; */
+    width:50vw;
+    /* border:2px solid red; */
+}
+.sec3div2{
+    /* border:2px solid red; */
+    width:30vw;
+    
+   
+}
+
+.location-info{
+    display:grid;
+    grid-template-columns:10% 90% ;
+    margin-left:24px;
+}
+
+.lb-in{
+    /* border:2px solid black; */
+    padding :9px 12px;
+}
+.lb-in input{
+    width:80%;
+    height:28px;
+}
+.lb-in textarea{
+    width:86%;
+}
+.btn3{
+    border:none;
+    background-color: blue;
+    color:white;
+    border-radius: 4px;
+    height:46px;
+    width:95px;
+    cursor:pointer;
+}
+.connect-social{
+    display:grid;
+    grid-template-columns:2fr 2fr 2fr 2fr;
+}
 
 
 
+#section4{
+    margin-top:15px;
+    display:flex;
+    
+}
+.sec4div1{
+    width:50%;
+}
+.sec4div2{
+    width:50%;
+}
+.common-skill-css{
+    /* border:2px solid red; */
+    border-radius: 25px;
+    text-align: right;
+}
+.common-css{
+    border-radius: 25px;
+    color:white;
+}
 
 
+.skills{
+    /* display:grid; */
+    padding:15px 32px;
+    
+}
+.frontend-container{
+    width:100%;
+    box-sizing: border-box;
+    /* background-color: grey; */
+}
+.frontend-percentage{
+width:70%;
+background-color: rgb(135, 129, 129);
+}
+.backend-container{
+    width:100%;
+    box-sizing: border-box;
+    /* background-color: grey; */
+}
+
+.backend-percentage{
+    width:90%;
+    background-color:  rgb(135, 129, 129);
+    }
+.database-container{
+    width:100%;
+    box-sizing: border-box;
+}
+.database-percentage{
+ width:40%;
+    background-color:  rgb(135, 129, 129);
+}
+.english-container{
+    width:100%;
+    box-sizing: border-box;
+}
+.english-percentage{
+ width:80%;
+    background-color:  rgb(135, 129, 129);
+}
+.gujarati-container{
+    width:100%;
+    box-sizing: border-box;
+}
+.gujarati-percentage{
+ width:90%;
+    background-color:  rgb(135, 129, 129);
+}
+.hindi-container{
+    width:100%;
+    box-sizing: border-box;
+}
+.hindi-percentage{
+ width:70%;
+    background-color: rgb(135, 129, 129);
+}
+
+
+/* certificate section  */
+#section5{
+    margin-top: 17px;
+}
+
+
+/* education section  */
+.ed-container{
+    display:grid;
+    grid-template-columns: 1fr 2fr 7fr;
+}
+#section6{
+    /* border:2px solid red; */
+    margin:14px 7px;
+    background-color: #fefefe;
+}
+
+.ed{
+    /* height:200px */
+    padding:10px 0px;
+}
+
+footer{
+    background-color: rgb(0, 0, 0);
+    color:white;
+    height:6vh;
+    
+}
+
+
+#footer{
+    display:grid;
+}
 
 
