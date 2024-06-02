@@ -22,3 +22,20 @@ function func2(str) {
     btnid.style.backgroundColor='black';
     btnid.style.color='white';
 }
+
+
+setInterval(() => {
+    let muxid=document.getElementById('mux');
+    muxid.innerHTML=' Full-stack Developer';
+    
+}, 2000);
+setInterval(() => {
+    let muxid=document.getElementById('mux');
+    muxid.innerHTML=' a Programmer';
+    
+}, 4000);
+setInterval(() => {
+    let muxid=document.getElementById('mux');
+    muxid.innerHTML=' Dipak Paliya';
+    
+}, 6000);

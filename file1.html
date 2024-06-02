@@ -10,13 +10,16 @@
 </head>
 
 <body>
+
+    <!-- navbar  -->
+
     <nav>
         <div id="logo">
             <h1>Dipak Paliya</h1>
         </div>
         <ul id="ul-list">
-            <li class="center "><a href="#section1">Home</a></li>
-            <li class="center"><a href="#">Skills</a></li>
+            <li class="center "><a href="#">Home</a></li>
+            <li class="center"><a href="#section4">Skills</a></li>
             <li class="center"><a href="#section2">Projects</a></li>
             <li class="center"><a href="#section3">Contact me</a></li>
             <li class="center"><a href="#">About me</a></li>
@@ -26,7 +29,7 @@
     <!-- About us section  -->
     <section id="section1">
         <div class="sec1div1 center">
-            <strong style="font-size:40px;">Hello, I'm Dipak Paliya</strong>
+            <strong style="font-size:40px;">Hello, I'm<span id="mux"> Dipak Paliya</span></strong>
             <p>🚀 Aspiring Full-Stack Developer'2025 🚀
                 <br>
                 Passionate about technology and innovation, currently pursuing a Bachelor's in Computer Engineering with
@@ -37,17 +40,15 @@
                 enthusiasts and industry professionals.
             </p>
             <ul class="social-list">
-                <li><a href="https://www.instagram.com/dipak_paliya_1938/" target="_blank"><img
-                            src="images/instagram-logo-24.png" alt=""></a></li>
-                <li><a href="https://www.facebook.com/dipak.paliya.18" target="_blank"><img
-                            src="images/facebook-circle-logo-24.png" alt=""></a></li>
-                <li><a href="https://www.linkedin.com/in/dipak-paliya/" target="_blank"><img
-                            src="images/linkedin-square-logo-24.png" alt=""></a></li>
-                <li><a href="https://github.com/Dipakpaliya" target="_blank"><img src="images/github-logo-24.png"
-                            alt=""></a></li>
+                <li><a href="https://www.linkedin.com/in/dipak-paliya/" target="_blank"><img src="images/linkedin-square-logo-24.png" alt="" title="linkedIn"></a></li>
+                <li><a href="https://github.com/Dipakpaliya" target="_blank"><img src="images/github-logo-24.png" alt="" title="GitHub"></a></li>
+                <li><a href="https://www.instagram.com/dipak_paliya_1938/" target="_blank"><img src="images/instagram-logo-24.png" alt="" title="instagram"></a></li>
+                <li><a href="https://www.facebook.com/dipak.paliya.18" target="_blank"><img src="images/facebook-circle-logo-24.png" alt="" title="facebook"></a></li>
             </ul>
             <div>
-                <button class="btn">View or Download Resume</button>
+                <button class="btn"
+                    onclick="window.location.href='resume.pdf'"
+                    title="Resume" >View or Download Resume</button>
 
             </div>
         </div>
@@ -66,135 +67,137 @@
                     <img src="images/gecg logo.png" alt="" style="display:block;">
                 </div> -->
                 <h4 class="center">College resource management web</h4>
-                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Tempore et, eum in voluptatum recusandae
-                    quibusdam, quaerat ducimus consequatur inventore autem itaque expedita asperiores nesciunt excepturi
-                    maiores nisi commodi dolor quos obcaecati! Suscipit, commodi optio.</p>
-                <button class="btn2" id="btnid1">View on GitHub</button>
+                <p>This web application is designed to
+                    streamline and enhance the management of college resources, providing a
+                    user-friendly interface for students, faculty, and administrators. Key features include: Secured signup
+                    & login System ,Efficient resource allocation, Comprehensive dashboard for
+                    administrator</p>
+                <button class="btn2" id="btnid1"
+                    onclick="window.location.href='https://github.com/Dipakpaliya/College_Resource_Management_web';">View
+                    on GitHub</button>
             </div>
             <div class="project" onmouseenter="func1('btnid2')" onmouseleave="func2('btnid2')">
                 <!-- <div class="p-logo">
                     <img src="images/quick-mart-logo.png1" alt="" style="display:block;">
                 </div> -->
                 <h4 class="center">E-commerce Web</h4>
-                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Tempore et, eum in voluptatum recusandae
-                    quibusdam, quaerat ducimus consequatur inventore autem itaque expedita asperiores nesciunt excepturi
-                    maiores nisi commodi dolor quos obcaecati! Suscipit, commodi optio.</p>
-                <button class="btn2" id="btnid2">View on GitHub</button>
+                <p>We're developing an advanced e-commerce platform tailored for today's digital shoppers and sellers. Leveraging Servlets for server-side logic, JSP for dynamic pages, and MySQL for robust data management, our platform promises seamless user experiences. With HTML shaping our content and CSS enhancing visuals, JavaScript adds interactive flair. Together, these technologies form our platform's innovative backbone.
+                </p>
+                <button class="btn2" id="btnid2"
+                    onclick="window.location.href='https://github.com/Dipakpaliya/E_Commerce_Web';">View on
+                    GitHub</button>
             </div>
             <div class="project" onmouseenter="func1('btnid3')" onmouseleave="func2('btnid3')">
                 <!-- <div class="p-logo">
                     <img src="images/quick-mart-logo.png1" alt="" style="display:block;">
                 </div> -->
-                <h4 class="center">Calculator using JavaScript</h4>
-                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Tempore et, eum in voluptatum recusandae
-                    quibusdam, quaerat ducimus consequatur inventore autem itaque expedita asperiores nesciunt excepturi
-                    maiores nisi commodi dolor quos obcaecati! Suscipit, commodi optio.</p>
+                <h4 class="center">Own Portfolio</h4>
+                <p>Crafted my portfolio website to showcase my skills and projects, featuring innovative design elements and user-friendly navigation. The site is responsive, interactive, and elegantly designed, providing a dynamic and versatile platform to display my work. Polished and intuitive, it offers a modern and personalized experience for visitors of all abilities.</p>
                 <button class="btn2" id="btnid3">View on GitHub</button>
             </div>
             <div class="project" onmouseenter="func1('btnid4')" onmouseleave="func2('btnid4')">
                 <!-- <div class="p-logo">
                     <img src="images/quick-mart-logo.png1" alt="" style="display:block;">
                 </div> -->
-                <h4 class="center">Bootstrap Website</h4>
-                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Tempore et, eum in voluptatum recusandae
-                    quibusdam, quaerat ducimus consequatur inventore autem itaque expedita asperiores nesciunt excepturi
-                    maiores nisi commodi dolor quos obcaecati! Suscipit, commodi optio.</p>
-                <button class="btn2" id="btnid4">View on GitHub</button>
+                <h4 class="center">Calculator using JavaScript</h4>
+                <p>The calculator is my first project as i have started in my career journey and developed well known calculator providing the arithmatic operations</p>
+                <button class="btn2" id="btnid4" onclick="window.location.href='https://github.com/Dipakpaliya/Calculator';">View on GitHub</button>
             </div>
         </div>
     </section>
 
 
-<!-- education section  -->
-<section id="section6">
-    <h2 class="center common-bg m-0">Education</h2>
-    <div class="ed-container">
-        <div class="ed">
-            
-            <h2 class="center m-0"></h2>
+    <!-- education section  -->
+    <section id="section6">
+        <h2 class="center common-bg m-0">Education</h2>
+        <div class="ed-container">
+            <div class="ed">
+
+                <h2 class="center m-0"></h2>
+            </div>
+            <div class="ed limit">
+                <i> Sep 2021 - Sep 2025</i>
+
+            </div>
+            <div class="ed">
+                <h2 class="m-0">Bachelor of Engineering-BE,Computer Engineering</h2>
+                <h3 class="m-0">Government Engineering College,Sector-28,Gandhinagar(GTU)</h3>
+                <span>Grade: 8.09 CGPA (Currently)</span>
+                <p>Studying the technology of computers and knowledge about the programing language to acknowledge
+                    industry requirements.</p>
+            </div>
+            <div class="ed">
+
+
+            </div>
+            <div class="ed limit">
+                <i>Jun 2019 - May 2021</i>
+            </div>
+            <div class="ed">
+                <h2 class="m-0"> HSC,Science</h2>
+                <h3 class="m-0">Shree Ambika Vidhyalaya, Rajkot</h3>
+                <span>Grade: 91.53 % (A2)</span>
+                <p></p>
+            </div>
+            <div class="ed">
+
+
+            </div>
+            <div class="ed limit">
+                <i> Mar 2009 - Mar 2019</i>
+            </div>
+            <div class="">
+                <h2 class="m-0"> SSC,Matric</h2>
+                <h3 class="m-0">Shree Alfa Madhyamik Shala</h3>
+                <span>Grade: 83.66 % (A2)</span>
+                <p></p>
+            </div>
+
         </div>
-        <div class="ed">
-            <i> Sep 2021 - Sep 2025</i>
-       
-        </div>
-        <div class="ed">
-            <h4 class="m-0">Bachelor of Engineering-BE,Computer Engineering</h4>
-            <h5 class="m-0">Government Engineering College,Sector-28,Gandhinagar(GTU)</h5>
-            <span>Grade: 8.09 CGPA (Currently)</span>
-            <p>Studying the technology of computers and knowledge about the programing language to acknowledge industry requirements.</p>
-        </div>
-        <div class="ed">
-            
-            
-        </div>
-        <div class="ed">
-      <i>Jun 2019 - May 2021</i> 
-        </div>
-        <div class="ed">
-            <h4 class="m-0"> HSC,Science</h4>
-            <h5 class="m-0">Shree Ambik Vidhyalaya, Rajkot</h5>
-            <span>Grade: 91.53 % (A2)</span>
-            <p></p>
-        </div>
-        <div class="ed">
-            
-            
-        </div>
-        <div class="ed">
-            <i> Mar 2009 - Mar 2019</i>
-        </div>
-        <div class="">
-            <h4 class="m-0"> SSC,Matric</h4>
-            <h5 class="m-0">Shree Alfa Madhyamik Shala</h5>
-            <span>Grade: 83.66 % (A2)</span>
-            <p></p>
-        </div>
-        
-    </div>
-</section>
-    
+    </section>
+
 
 
     <!-- skill section  -->
     <section id="section4">
         <div class="sec4div1">
 
-        
-        <h2 class="center common-bg m-0">Skills</h2>
-        <div class="skills">
-            <label for=""><b>Frontend</b></label>
-            <div class="frontend-container common-skill-css">
-                <div class="frontend-percentage common-css">70%</div>
-            </div>
-            <label for=""><b>Backend</b></label>
-            <div class="backend-container common-skill-css">
-                <div class="backend-percentage common-css">90%</div>
-            </div>
-            <label for=""><b>Database</b></label>
-            <div class="database-container common-skill-css">
-                <div class="database-percentage common-css">40%</div>
-            </div>
 
-        </div>
-    </div>
-    <div class="sec4div2">
-        <h2 class="center common-bg m-0">Languages</h2>
-        <div class="skills">
-            <label for=""><b>English </b></label>
-            <div class="english-container common-skill-css">
-                <div class="english-percentage common-css">80%</div>
-            </div>
-            <label for=""><b>Gujarati </b></label>
-            <div class="gujarati-container common-skill-css">
-                <div class="gujarati-percentage common-css">90%</div>
-            </div>
-            <label for=""><b>Hindi</b></label>
-            <div class="hindi-container common-skill-css">
-                <div class="hindi-percentage common-css">70%</div>
-            </div>
+            <h2 class="center common-bg m-0">Skills</h2>
+            <div class="skills">
+                <label for=""><b>Frontend</b></label>
+                <div class="frontend-container common-skill-css">
+                    <div class="frontend-percentage common-css">70%</div>
+                </div>
+                <label for=""><b>Backend</b></label>
+                <div class="backend-container common-skill-css">
+                    <div class="backend-percentage common-css">90%</div>
+                </div>
+                <label for=""><b>Database</b></label>
+                <div class="database-container common-skill-css">
+                    <div class="database-percentage common-css">40%</div>
+                </div>
 
+            </div>
         </div>
-    </div>
+        <div class="sec4div2">
+            <h2 class="center common-bg m-0">Languages</h2>
+            <div class="skills">
+                <label for=""><b>English </b></label>
+                <div class="english-container common-skill-css">
+                    <div class="english-percentage common-css">80%</div>
+                </div>
+                <label for=""><b>Gujarati </b></label>
+                <div class="gujarati-container common-skill-css">
+                    <div class="gujarati-percentage common-css">90%</div>
+                </div>
+                <label for=""><b>Hindi</b></label>
+                <div class="hindi-container common-skill-css">
+                    <div class="hindi-percentage common-css">70%</div>
+                </div>
+
+            </div>
+        </div>
     </section>
 
 
@@ -210,7 +213,7 @@
                 <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Tempore et, eum in voluptatum recusandae
                     quibusdam, quaerat ducimus consequatur inventore autem itaque expedita asperiores nesciunt excepturi
                     maiores nisi commodi dolor quos obcaecati! Suscipit, commodi optio.</p>
-                <button class="btn2" id="btnid5">View Certificate</button>
+                <button class="btn2" id="btnid5" onclick="window.location.href='https://drive.google.com/file/d/1CwPOy5G2XKP-0c_0DmZCK-b9qzmA-yP3/view'">View Certificate</button>
             </div>
             <div class="project" onmouseenter="func1('btnid6')" onmouseleave="func2('btnid6')">
                 <!-- <div class="p-logo">
@@ -220,9 +223,9 @@
                 <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Tempore et, eum in voluptatum recusandae
                     quibusdam, quaerat ducimus consequatur inventore autem itaque expedita asperiores nesciunt excepturi
                     maiores nisi commodi dolor quos obcaecati! Suscipit, commodi optio.</p>
-                <button class="btn2" id="btnid6">View Certificate</button>
+                <button class="btn2" id="btnid6" onclick="window.location.href='https://certificate.givemycertificate.com/c/72bc13a2-1a17-40ed-b4ef-dfd99f68606b'">View Certificate</button>
             </div>
-            <div class="project" onmouseenter="func1('btnid7')" onmouseleave="func2('btnid7')" >
+            <div class="project" onmouseenter="func1('btnid7')" onmouseleave="func2('btnid7')">
                 <!-- <div class="p-logo">
                     <img src="images/quick-mart-logo.png1" alt="" style="display:block;">
                 </div> -->
@@ -230,7 +233,7 @@
                 <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Tempore et, eum in voluptatum recusandae
                     quibusdam, quaerat ducimus consequatur inventore autem itaque expedita asperiores nesciunt excepturi
                     maiores nisi commodi dolor quos obcaecati! Suscipit, commodi optio.</p>
-                <button class="btn2" id="btnid7">View Certificate</button>
+                <button class="btn2" id="btnid7"onclick="window.location.href='https://drive.google.com/file/d/1HWXHO940D0XpvwE__WwPXwSB2FzvUmBk/view';">View Certificate</button>
             </div>
             <div class="project" onmouseenter="func1('btnid8')" onmouseleave="func2('btnid8')">
                 <!-- <div class="p-logo">
@@ -246,82 +249,138 @@
     </section>
 
 
-<!-- contact us section  -->
-<h2 class="center common-bg m-0">Reach out to me!</h2>
-<section id="section3">
+    <!-- contact us section  -->
+    <h2 class="center common-bg m-0">Reach out to me!</h2>
+    <section id="section3">
 
 
-    <div class="sec3div1">
-        <form action="">
-            <span><b>
-                    <center>Message now!</center>
-                </b></span>
-            <div class="lb-in">
-                <label for="">Name:</label>
-                <input type="text" name="" id="" required placeholder="Enter your name">
-            </div>
-            <div class="lb-in">
-                <label for="">Email:</label>
-                <input type="email" name="" id="" required placeholder="abc@gmail.com">
-            </div>
-            <div class="lb-in">
-                <label for="">Message:</label><br>
-                <textarea name="" id="" rows="4" placeholder="Enter your message briefly" required></textarea>
-            </div>
-            <div class="center">
-                <input type="submit" value="Message" class="btn">
-            </div>
-        </form>
-    </div>
-    <div class="sec3div2">
-        <h4><span><b>
-                    <center>Connect now!</center>
-                </b></span></h4>
-        <div class="location-info">
-            <div class="">
-                <img src="images/gmail-logo-24.png" alt="">
-            </div>
-            <div>dipakthakor1938@gmail.com</div>
-            <div class="">
-                <img src="images/phone-call-solid-24.png" alt="">
-            </div>
-            <div class="">+91 84018887622</div>
-            <div>
-                <img src="images/home-solid-24.png" alt="">
-            </div>
-            <div>
-                
-            <address>
-                Government Engineering College ,<br>Sector-28, <br>Gandhinagar ,<br>Gujarat 360023
-            </address>
-            </div>
-            <div>
-                <img src="images/user-solid-24.png" alt="">
-            </div>
-
+        <div class="sec3div1">
+            <form action="" method="post">
+                <span><b>
+                        <center>Drop a Message!</center>
+                    </b></span>
+                <div class="lb-in">
+                    <label for="">Name:</label>
+                    <input type="text" name="" id="" required placeholder="Enter your name">
+                </div>
+                <div class="lb-in">
+                    <label for="">Email:</label>
+                    <input type="email" name="" id="" required placeholder="abc@gmail.com">
+                </div>
+                <div class="lb-in">
+                    <label for="">Message:</label><br>
+                    <textarea name="" id="" rows="4" placeholder="Enter your message briefly" required></textarea>
+                </div>
+                <div class="center">
+                    <input type="submit" value="Message" class="btn" title="message">
+                </div>
+            </form>
         </div>
-        <div>
-            <ul class="social-list">
-                <li><a href="https://www.instagram.com/dipak_paliya_1938/" target="_blank"><img
-                            src="images/instagram-logo-24.png" alt=""></a></li>
-                <li><a href="https://www.facebook.com/dipak.paliya.18" target="_blank"><img
-                            src="images/facebook-circle-logo-24.png" alt=""></a></li>
-                <li><a href="https://www.linkedin.com/in/dipak-paliya/" target="_blank"><img
-                            src="images/linkedin-square-logo-24.png" alt=""></a></li>
-                <li><a href="https://github.com/Dipakpaliya" target="_blank"><img src="images/github-logo-24.png"
-                            alt=""></a></li>
-            </ul>
-        </div>
-</section>
+        <div class="sec3div2">
+            <h4><span><b>
+                        <center>Get in touch now!</center>
+                    </b></span></h4>
+            <div class="location-info">
+                <div class="">
+                    <img src="images/gmail-logo-24.png" alt="" title="gmail">
+                </div>
+                <div>dipakthakor1938@gmail.com <a href="mailto:dipakthakor1938@gmail.com">Send mail</a></div>
+                <div class="">
+                    <img src="images/phone-call-solid-24.png" alt="" title="phone">
+                </div>
+                <div class="">+91 84018887622</div>
+                <div>
+                    <img src="images/home-solid-24.png" alt="" title="address">
+                </div>
+                <div>
+
+                    <address>
+                        855-Shivshakti Society,<br>Sector-27, <br>Gandhinagar ,<br>Gujarat ,360023
+                    </address>
+                </div>
+                <div>
+                    <img src="images/user-solid-24.png" alt="">
+                </div>
+
+            </div>
+            <div>
+                <ul class="social-list">
+                    <li><a href="https://www.linkedin.com/in/dipak-paliya/" target="_blank"><img src="images/linkedin-square-logo-24.png" alt="" title="linkedIn"></a></li>
+                    <li><a href="https://github.com/Dipakpaliya" target="_blank"><img src="images/github-logo-24.png" alt="" title="GitHub"></a></li>
+                    <li><a href="https://www.instagram.com/dipak_paliya_1938/" target="_blank"><img src="images/instagram-logo-24.png" alt="" title="Instagram"></a></li>
+                    <li><a href="https://www.facebook.com/dipak.paliya.18" target="_blank"><img src="images/facebook-circle-logo-24.png" alt="" title="facebook"></a></li>
+                </ul>
+            </div>
+    </section>
+
     <footer>
-        <div id="footer">
+        <div id="footer" class="center">
+            <div>
+                <h3> Explore </h3>
+            </div>
+            <div>
+                <h3>Services</h3>
+            </div>
+            <div>
+                <h3>About</h3>
+            </div>
+            <div>
+                <ul class="ab-list">
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">Work with me</a></li>
+                    <li><a href="#section4">Skills</a></li>
+                    <li><a href="#section2">Projects</a></li>
+                    <li><a href="#">Privacy Policy</a></li>
 
+                </ul>
+            </div>
+            <div>
+                <ul class="ab-list">
+                    <li><a href="#">Frontend</a></li>
+                    <li><a href="#">Backend</a></li>
+                    <li><a href="#">Databases</a></li>
+                    <li><a href="#">Git & GitHub</a></li>
+                    <li><a href="#">MERN</a></li>
+
+                </ul>
+            </div>
+            <div>
+                <q>There is nothing place like 127.0.0.1</q>
+            </div>
         </div>
-        <p class="center">Copyright &copy; 2024.
-            Created by Dipak Paliya. | Last updated on 03/05/2024 05:16:31 PM
-        </p>
-
+        <div class="center last-ft">
+            Copyright &copy; 2024.
+            Created by Dipak Paliya. | Last updated on 02/06/2024 05:16:31 PM
+        </div>
     </footer>
+
+
+
+
+
+
+    <!-- <footer id="footer">
+        <div id="ft" class="center">
+            <div>
+                <h2 class="m-0">Explore</h2>
+            </div>
+            <div>
+                <h2 class="m-0">Services</h2>
+            </div>
+            <div class="quote">
+                <q><i>There is nothing place like 127.0.0.1 </i></q>
+            </div>
+            <div>Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam, ipsa pariatur. Explicabo quidem
+                consequatur iste fugiat at iure veritatis tempore eaque exercitationem atque, illum molestias ad
+                similique quam illo rerum dolorum accusantium cum minus?</div>
+            <div>5</div>
+        
+        <div class="center">Copyright &copy; 2024.
+            Created by Dipak Paliya. | Last updated on 03/05/2024 05:16:31 PM
+        </div>
+    </div>
+
+    </footer> -->
 
 </body>
 
