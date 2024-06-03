@@ -39,3 +39,16 @@ setInterval(() => {
     muxid.innerHTML=' Dipak Paliya';
     
 }, 6000);
+
+function hamburgerbtn(){
+    let var1=document.getElementById('hamburgerlist');
+    if(var1.style.display=='none'){
+        var1.style.display='block';
+    }
+    else{
+        var1.style.display='none';
+    }
+    
+    // console.log("Clicked btn");
+}
+
