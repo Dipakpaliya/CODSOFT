@@ -15,19 +15,29 @@
     padding-bottom: 52px;
 }
 
+
 header {
     /* background:linear-gradient(to right,rgb(230, 167, 51),rgb(229, 18, 229)); */
     background: rgb(227, 178, 178);
     /* background:blue; */
     display: flex;
+    
     justify-content: space-between;
+    
 }
+
 
 .social {
     display: flex;
     justify-content: space-between;
     width: 12%;
+    flex-wrap: wrap;
 
+}
+@media(max-width:500px){
+    .social{
+        width:100%;
+    }
 }
 
 .social>div {
@@ -44,9 +54,21 @@ header {
 
 .contact-info {
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-evenly;
     align-items: center;
     width: 40%;
+}
+@media(max-width:500px)
+{
+    header{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .contact-info{
+        width:100%;
+    }
 }
 
 .contact-info div {
@@ -65,8 +87,9 @@ hr {
 nav {
     display: flex;
     justify-content: space-evenly;
+    flex-wrap: wrap;
     align-items: center;
-    height: 10vh;
+    height: 13vh;
     /* border:2px solid red; */
     position: sticky;
     top: 0;
@@ -96,6 +119,12 @@ nav {
     list-style: none;
 
 }
+@media(max-width:1100px){
+    #nav-ul{
+        display:none;
+    }
+    
+}
 
 #nav-ul li a {
     text-decoration: none;
@@ -107,10 +136,50 @@ nav {
     /* border:2px solid red; */
     cursor: pointer;
     border: none;
-    background: rgb(91, 78, 78);
+    /* background: none; */
     border-radius: 50px;
     /* display:flex; */
 }
+#hambtn{
+    display: none;
+}
+.hambtncls{
+    background: none;
+    color:white;
+    border:2px solid white;
+    border-radius: 25%;
+    height:34px;
+    width:45px;
+    cursor:pointer;
+}
+#hammenu a{
+    text-decoration: none;
+    color:white;
+   
+}
+#hammenu{
+    display:none;
+    background-color: #222328;
+    position:sticky;
+    top:10%;
+    /* color:white; */
+}
+#hammenu > div{
+    padding:2px 3px;
+    /* color:white; */
+}
+
+@media(max-width:1100px){
+    #hambtn{
+        display:block;
+    }
+    #hammenu{
+        display:none;
+    }
+   
+    
+}
+
 
 
 /* navbar ends  */
@@ -141,10 +210,11 @@ nav {
 
 }
 
+
 .ab-btn {
 
     /* background:linear-gradient(to right,rgb(230, 167, 51),rgb(229, 18, 229)); */
-    background: blue;
+    background: black;
     color: white;
     border: none;
     border-radius: 50px;
@@ -158,7 +228,7 @@ nav {
 
 .ab-btn:hover {
     /* background:linear-gradient(to right,rgb(223, 180, 100),rgb(229, 100, 229)); */
-    background: black;
+    background: blue;
     color: white;
     /* background:white ; */
     /* color:black; */
@@ -180,12 +250,24 @@ nav {
     justify-content: space-evenly; */
     /* flex-wrap: wrap; */
     display: grid;
-    grid-template-columns: repeat(3, auto);
+    /* grid-template-columns: repeat(auto-fit,minmax(100px,400px)); */
+    grid-template-columns: repeat(3,auto);
     /* grid-gap:1fr; */
     /* background:linear-gradient(to right,rgb(230, 167, 51),rgb(229, 18, 229)); */
 
 }
-
+@media(min-width:700px) and ( max-width:1000px){
+    #sec2div{
+        grid-template-columns: repeat(2,auto);
+    }
+   
+}
+@media( max-width:700px){
+    #sec2div{
+        grid-template-columns: repeat(1,auto);
+    }
+    
+}
 #sec2div>div {
     /* display:flex; */
     padding: 17px 22px;
@@ -228,14 +310,29 @@ nav {
     grid-template-columns: repeat(3, auto);
     padding: 24px 50px;
 }
+@media(min-width:700px) and ( max-width:1000px){
+    .services{
+        grid-template-columns: repeat(2,auto);
+    }
+   
+}
+@media( max-width:700px){
+    .services{
+        grid-template-columns: repeat(1,auto);
+    }
+    
+}
+
+
 
 .service {
     padding: 2px 4px;
     /* border:2px solid rgb(0, 0, 0); */
     border-radius: 4px;
     margin: 2px 2px;
-    padding: 6px 26px;
+    /* padding: 6px 26px; */
 }
+
 
 .service:hover {
     /* box-shadow: 0 10px 16px 0 rgba(253, 0, 0, 0.2); */
@@ -263,12 +360,17 @@ nav {
     padding: 0px 109px;
     font-size: large;
 }
+@media(max-width:500px){
+    .sec4div1{
+    padding:2px 50px;
+    }
+}
 
-.sec4div1 p {}
+
 
 .sec4div2 img {
-    height: 309px;
-    width: 560px;
+    height: 200px;
+    width: 400px;
 }
 
 @media(max-width:1200px) {
@@ -283,8 +385,8 @@ nav {
     }
 
     .sec4div2 img {
-        height: 50%;
-        width: 50%;
+        height: 30%;
+        width: 40%;
         /* text-align:; */
     }
 }
