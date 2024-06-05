@@ -9,10 +9,10 @@ align-items: center;
 padding:2px 2px;
 }
 .input{
-    width:50%;
+    width:50vw;
 }
 .input input,select{
-    width:100%;
+    width:50vw;
     height:32px;
 }
 .input select{
@@ -21,4 +21,14 @@ padding:2px 2px;
 }
 .input {
     /* width:100%; */
+}
+.sbbtn{
+    /* display:block; */
+    /* margin:auto; */
+    /* width:12px; */
+background-color: black;
+color:white;
+cursor:pointer;
+border-radius:25px;
+    /* width:10%; */
 }
