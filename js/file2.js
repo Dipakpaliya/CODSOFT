@@ -1,4 +1,4 @@
-console.log("aLL OK");
+// console.log("aLL OK");
 
 function menu(str){
     console.log("here");
@@ -11,7 +11,4 @@ function menu(str){
         a.style.display='none';
 }
 }
-let var1=document.getElementById('hammenu');
-if(window.innerWidth > 1200){
-    var1.style.display='none';
-}
+

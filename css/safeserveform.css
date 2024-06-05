@@ -32,3 +32,8 @@ cursor:pointer;
 border-radius:25px;
     /* width:10%; */
 }
+.sbbtn:hover{
+    background: rgb(253, 172, 128);
+    color:black;
+
+}
