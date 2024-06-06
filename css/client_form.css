@@ -14,9 +14,11 @@ padding:2px 2px;
 .input input,select{
     width:50vw;
     height:32px;
+    padding:0px 4px;
 }
 .input select{
     height:32px;
+    padding:0px 4px;
 }
 .sbbtn{
 background-color: black;

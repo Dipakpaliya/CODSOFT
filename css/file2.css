@@ -110,10 +110,6 @@ nav {
     list-style: none;
 }
 
-#nav-ul li:hover {
-    background-color: white;
-}
-
 #nav-ul li a:hover {
     background-color: white;
     color: black;
@@ -216,8 +212,8 @@ nav {
 
 
 .ab-btn {
-    background: black;
-    color: white;
+    background: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
     border: none;
     border-radius: 50px;
     height: 33px;
@@ -228,7 +224,6 @@ nav {
 
 .ab-btn:hover {
     background: rgb(253, 172, 128);
-    color: rgb(0, 0, 0);
 }
 
 /* section 1 ends  */
