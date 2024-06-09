@@ -11,4 +11,3 @@ function menu(str){
         a.style.display='none';
 }
 }
-

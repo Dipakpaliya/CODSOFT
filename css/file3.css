@@ -1,0 +1,99 @@
+.buttons {
+    display: grid;
+    grid-template-columns: 100px 100px 100px 100px;
+    margin-top:5px;
+}
+.center{
+    text-align: center;
+}
+
+.calculator {
+    width: 455px;
+    border: 10px solid rgb(0, 0, 0);
+    border-radius:15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    /* background-color: rgb(214, 248, 196); */
+    background-color: #787777;
+    /* box-shadow: 3px 2px 3px 5px rgb(0, 0, 0); */
+    /* color: rgb(18, 52, 100); */
+}
+
+.numbtn{
+
+}
+.numbtn button{
+    background-color: black;
+    color:white;
+    box-shadow: 0px 1px 3px 2px white;
+    cursor:pointer;
+    padding:11px 24px;
+    margin:7px 0px;
+    font-size: large;
+    border-radius:11px;
+}
+.numbtn button:hover{
+    background-color: rgb(88, 206, 206);
+    color:black;
+}
+.myoperator{
+    background-color:red;
+}
+#addition{
+    background-color: rgb(255, 0, 0);
+}
+#percentage{
+    background-color: rgb(255, 0, 0);
+}
+#percentage:hover{
+    background-color: rgb(249, 238, 13);
+}
+#addition:hover{
+    background-color: rgb(249, 238, 13);
+}
+#subtraction{
+    background-color: rgb(255, 0, 0);
+}
+#subtraction:hover{
+    background-color: rgb(249, 238, 13);
+}
+#multiplication{
+    background-color: rgb(255, 0, 0);
+}
+#multiplication:hover{
+    background-color: rgb(249, 238, 13);
+
+}
+#division{
+    background-color: rgb(255, 0, 0);
+}
+#division:hover{
+    background-color: rgb(249, 238, 13);
+
+}
+#answer{
+    background-color: rgb(38, 0, 255);
+}
+#answer:hover{
+    background-color: green;
+}
+
+.result {
+    /* display:block; */
+    width:100%;
+}
+
+.result input {
+    display:block;
+    margin:auto;
+    margin-top:8px;
+    width:85% ;
+    color:black;
+    background-color: white;
+    font-size:large;
+    padding:6px 4px;
+    border-radius:10px;
+}
