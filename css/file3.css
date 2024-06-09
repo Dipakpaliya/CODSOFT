@@ -6,7 +6,6 @@
 .center{
     text-align: center;
 }
-
 .calculator {
     width: 455px;
     border: 10px solid rgb(0, 0, 0);
@@ -16,14 +15,7 @@
     justify-content: center;
     align-items: center;
     margin: auto;
-    /* background-color: rgb(214, 248, 196); */
     background-color: #787777;
-    /* box-shadow: 3px 2px 3px 5px rgb(0, 0, 0); */
-    /* color: rgb(18, 52, 100); */
-}
-
-.numbtn{
-
 }
 .numbtn button{
     background-color: black;
@@ -65,14 +57,12 @@
 }
 #multiplication:hover{
     background-color: rgb(249, 238, 13);
-
 }
 #division{
     background-color: rgb(255, 0, 0);
 }
 #division:hover{
     background-color: rgb(249, 238, 13);
-
 }
 #answer{
     background-color: rgb(38, 0, 255);
@@ -82,7 +72,6 @@
 }
 
 .result {
-    /* display:block; */
     width:100%;
 }
 
