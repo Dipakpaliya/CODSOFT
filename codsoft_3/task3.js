@@ -19,5 +19,5 @@ function percentage(){
 function result(){
     let a=document.getElementById('display');
     let answer=eval(a.value);
-    a.value=answer;   
+    a.value=answer;
 }

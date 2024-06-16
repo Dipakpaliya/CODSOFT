@@ -184,7 +184,7 @@ nav {
 /* section 1  */
 
 #section1 {
-    background-image: url('/images/image1\ updated.jpg');
+    background-image: url('images/image1\ updated.jpg');
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
